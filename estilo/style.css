@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+body{
+    background: #F3F5FC;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+}
+
+
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+}
+
+.container-input .input{
+    width: 300px;
+    height: 200px;
+}
+
+#input-text{
+    width: 345px;
+    height: 300px;
+    font-size: 20px;
+    color: #0A3871;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 5px;
+    
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #FFFF;
+    color: #FFFF;
+    background-color: #FFF;
+    border-radius: 20px;
+    width: 350px;
+    height: 430px;
+    margin-right: 3%;
+}
+
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 24px;
+    color: #343A40;
+}
+
+
+.container-bnt button{
+    border: 2px solid #0A3871;
+    border-radius: 18px;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    margin-left: 6%;
+    cursor: pointer;
+}
+
+.btn-criptografar {
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.btn-descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+;
+
+}
+
+.btn-copiar{
+    border: 2px solid #0A3871;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #0A3871;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    font-size: 16px
+}
+
+.container-bnt button:hover{
+   border: 2px solid #FFFF;
+   transition: 0.5s all;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    margin-top: 5px ;
+    background: #0A3871 ;
+    color: #F3F5FC;
+    font-size: 16px;
+}
+
+
+
